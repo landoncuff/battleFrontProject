@@ -1,0 +1,44 @@
+  <div>
+        <div class="sectionHeader">
+            <label class="sectionHeader">CONTACT INFORMATION</label>
+        </div>
+       
+        <div>
+            <label>PARENT/GUARDIAN 1</label>
+            <!-- Label for athlete name -->
+            <label>PARENT/GUARDIAN 1 PHONE</label>
+            <!-- Label for athlete phone -->
+            <label>PARENT/GUARDIAN 1 EMAIL</label>
+            <!-- Label for athlete email -->
+        </div>  
+        <div>
+            <label>PARENT/GUARDIAN 2</label>
+            <!-- Label for athlete name -->
+            <label>PARENT/GUARDIAN 2 PHONE</label>
+            <!-- Label for athlete phone -->
+            <label>PARENT/GUARDIAN 2 EMAIL</label>
+            <!-- Label for athlete email -->
+        </div>
+        <div>
+            <label>ADDRESS INFORMATION</label>
+        </div>
+    </div>
+    <div>
+            <label>PERSONAL INFORMATION</label>
+            <div>
+                 <label>ADDRESS INFORMATION</label>
+            </div>
+            <div>
+                <label>HIGH SCHOOL NAME</label>
+            </div>
+            <div>
+                <label>HEAD COACH</label>
+                <label>HEAD COACH PHONE</label>
+                <label>HEAD COACH EMAIL</label>
+            </div>
+                <label>ETHNICITY</label>
+                <label>HOBBIES</label>
+                <label>COLLEGE PREFERENCE</label>
+                <label>PREVIOUS INJURIES</label>
+            </div>
+    </div>
