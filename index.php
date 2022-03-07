@@ -1,5 +1,5 @@
 <?php
-
+require 'getdata.php';
 
 ?>
 
@@ -13,7 +13,28 @@
 </head>
 <body>
     <h1>Landon</h1>
-    <p><?php include 'getdata.php';
-        echo "message from server"; ?></p>
+    <table>
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+            </tr>
+        </thead>
+    <tbody>
+        <?php 
+        $i = 0;
+        while($rows){$i++
+        ?>
+        <tr>
+            <td><?php echo $i; ?></td>
+            <td><?php echo $rows[3]; ?></td>
+            <td><?php echo $rows[2]; ?></td>
+            <td><?php echo $rows[5]; ?></td>
+        </tr>
+        <?php 
+        }
+        ?>
+    </tbody>
+    </table>  
 </body>
 </html>
