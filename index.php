@@ -50,7 +50,8 @@ require 'getdata.php';
             </tr>
             <tr>
                 <td>Athlete Name</td>
-                
+                <td><?php $random = array_rand($all_ath_data, 1);
+                echo $all_ath_data[$random[0]]; ?></td>
                 <td>Cell Phone</td>
                 <td>Email</td>
             </tr>
